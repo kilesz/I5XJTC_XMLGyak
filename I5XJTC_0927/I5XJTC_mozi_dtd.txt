@@ -1,0 +1,4 @@
+<!doctype dtd>
+	<!ELEMENT mozi (film*)>
+		<!ELEMENT film (rendezo+,szinesz+,iro+)>
+	
