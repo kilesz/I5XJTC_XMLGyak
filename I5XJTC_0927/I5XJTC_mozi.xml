@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE I5XJTC_mozi_dtd
+[
+	<!ATTLIST I5XJTC_mozi mozi:mufaj CDDATA #REQUIRED>
+	<!ELEMENT I5XJTC_mozi film:rendezo CDDATA #REQUIRED>
+	<!ELEMENT I5XJTC_mozi film:szinesz CDDATA #REQUIRED>
+	<!ELEMENT I5XJTC_mozi film:iró CDDATA #REQUIRED>
+]
+>
 <mozi>
 	<film id="txn_nxm_2jb" mufaj="horror">
 		<rendezo id="nzk_4xm_2jb" nev="alex"/>
