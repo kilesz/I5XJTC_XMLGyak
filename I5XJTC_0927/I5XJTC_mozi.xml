@@ -2,10 +2,10 @@
 
 <!DOCTYPE I5XJTC_mozi_dtd
 [
-	<!ATTLIST I5XJTC_mozi mozi:mufaj CDDATA #REQUIRED>
-	<!ELEMENT I5XJTC_mozi film:rendezo CDDATA #REQUIRED>
-	<!ELEMENT I5XJTC_mozi film:szinesz CDDATA #REQUIRED>
-	<!ELEMENT I5XJTC_mozi film:iró CDDATA #REQUIRED>
+	<!ATTLIST mozi mufaj CDDATA #REQUIRED>
+	<!ELEMENT film rendezo CDDATA #REQUIRED>
+	<!ELEMENT film szinesz CDDATA #REQUIRED>
+	<!ELEMENT film iró CDDATA #REQUIRED>
 ]
 >
 <mozi>
