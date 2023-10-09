@@ -4,9 +4,9 @@
 	<!ELEMENT mozi (film*)>
 	<!ELEMENT film (rendezo+, szinesz+, iro+)>
 	<!ATTLIST film mufaj (horror|akcio|romantika) "horror">
-	<!ELEMENT rendezo CDDATA #REQUIRED>
-	<!ELEMENT szinesz CDDATA #REQUIRED>
-	<!ELEMENT iró CDDATA #REQUIRED>
+	<!ELEMENT rendezo (#PCDATA)>
+	<!ELEMENT szinesz (#PCDATA)>
+	<!ELEMENT iro (#PCDATA)>
 ]
 >
 
