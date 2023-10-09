@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I5XJTC_mozi_dtd
+[
+	<!ELEMENT mozi (film*)>
+	<!ELEMENT film (rendezo+, szinesz+, iro+)>
+	<!ATTLIST film mufaj (horror|akcio|romantika) #INCLUDE>
+	<!ELEMENT rendezo CDDATA #REQUIRED>
+	<!ELEMENT szinesz CDDATA #REQUIRED>
+	<!ELEMENT iró CDDATA #REQUIRED>
+]
+>
 <!ELEMENT mozi (film*)>
 	<!ATTLIST film mufaj (horror|akcio|romantika) "horror">
 	<!ELEMENT film (rendezo+,szinesz+,iro+)>
