@@ -3,7 +3,7 @@
 [
 	<!ELEMENT mozi (film*)>
 	<!ELEMENT film (rendezo+, szinesz+, iro+)>
-	<!ATTLIST film mufaj (horror|akcio|romantika) #INCLUDE>
+	<!ATTLIST film mufaj (horror|akcio|romantika) "horror">
 	<!ELEMENT rendezo CDDATA #REQUIRED>
 	<!ELEMENT szinesz CDDATA #REQUIRED>
 	<!ELEMENT iró CDDATA #REQUIRED>
