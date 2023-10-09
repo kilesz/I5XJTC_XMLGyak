@@ -67,7 +67,7 @@
       <oktato nev="Sasvari Peter"/>
       <szak nev="GEIK"/>
   </szerda>
-  <csütörtök>
+  <csutortok>
     <ora id="cs1hf" tipus="kotelezo">
       <targy nev="szoftvertech"/>
       <idopont>
@@ -108,5 +108,5 @@
       <helyszin helyszin="trening studio"/>
       <oktato nev="Szilagyi Szilvia"/>
       <szak nev="GEIK"/>
-  </csütörtök>
+  </csutortok>
 </I5XJTC_orarend>
