@@ -12,6 +12,7 @@
       <helyszin helyszin="A/5 202"/>
       <oktato nev="Pasztor Krisztina"/>
       <szak nev="GEIK"/>
+    </ora>
   </hetfo>
   <kedd>
     <ora id="k1hf" tipus="kotelezo">
@@ -24,6 +25,7 @@
       <helyszin helyszin="XXXII.e"/>
       <oktato nev="Bednarik Laszlo"/>
       <szak nev="GEIK"/>
+    </ora>
     <ora id="k2hf" tipus="kotelezo">
       <targy nev="algoritmusok es vizsgalatuk"/>
       <idopont>
@@ -34,6 +36,7 @@
       <helyszin helyszin="A/1 320"/>
       <oktato nev="Hazy Attila"/>
       <szak nev="GEIK"/>
+    </ora>
   </kedd>
   <szerda>
     <ora id="sz1hf" tipus="kotelezo">
@@ -46,6 +49,7 @@
       <helyszin helyszin="inf/103"/>
       <oktato nev="Bednarik Laszlo"/>
       <szak nev="GEIK"/>
+    </ora>
     <ora id="sz2hf" tipus="kotelezo">
       <targy nev="vallalati informacios rendszerek fejlesztese"/>
       <idopont>
@@ -56,6 +60,7 @@
       <helyszin helyszin="inf/101"/>
       <oktato nev="Sasvari Peter"/>
       <szak nev="GEIK"/>
+    </ora>
     <ora id="sz3hf" tipus="kotelezo">
       <targy nev="vallalati informacios rendszerek fejlesztese"/>
       <idopont>
@@ -66,6 +71,7 @@
       <helyszin helyszin="inf/101"/>
       <oktato nev="Sasvari Peter"/>
       <szak nev="GEIK"/>
+    </ora>
   </szerda>
   <csutortok>
     <ora id="cs1hf" tipus="kotelezo">
@@ -78,6 +84,7 @@
       <helyszin helyszin="XXXIII.e"/>
       <oktato nev="Mileff Peter"/>
       <szak nev="GEIK"/>
+    </ora>
     <ora id="cs2hf" tipus="kotelezo">
       <targy nev="szoftvertech"/>
       <idopont>
@@ -88,6 +95,7 @@
       <helyszin helyszin="XXXIII.e"/>
       <oktato nev="Mileff Peter"/>
       <szak nev="GEIK"/>
+    </ora>
     <ora id="cs3hf" tipus="valaszthato">
       <targy nev="japan-magyar kapcsolatok tortenete"/>
       <idopont>
@@ -98,6 +106,7 @@
       <helyszin helyszin="C/1 202"/>
       <oktato nev="Ichihara Shimpei"/>
       <szak nev="GEIK"/>
+    </ora>
     <ora id="cs4hf" tipus="valaszthato">
       <targy nev="versenyrobotok epitese es programozasa"/>
       <idopont>
@@ -108,5 +117,6 @@
       <helyszin helyszin="trening studio"/>
       <oktato nev="Szilagyi Szilvia"/>
       <szak nev="GEIK"/>
+    </ora>
   </csutortok>
 </I5XJTC_orarend>
