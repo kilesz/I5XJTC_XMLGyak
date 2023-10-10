@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <konferencia>
-  <cim></cim>
+  <cim>A spagetti elkeszitesenek modjai</cim>
   <hallgatok>
     <hallgato>
-      <nev></nev>
-      <lakcim></lakcim>
+      <nev>Rácz Milán</nev>
+      <lakcim>Szerencs</lakcim>
+    </hallgato>
+    <hallgato>
+      <nev>Kossuth Imre</nev>
+      <lakcim>Pecs</lakcim>
+    </hallgato>
+    <hallgato>
+      <nev>Vendes Ferenc</nev>
+      <lakcim>Miskolc</lakcim>
+    </hallgato>
+    <hallgato>
+      <nev>Mor Istvan</nev>
+      <lakcim>Budapest</lakcim>
     </hallgato>
   </hallgatok>
-  <helyszin></helyszin>
-  <datum></datum>
+  <helyszin>XXXI.e</helyszin>
+  <datum>2023.04.12</datum>
   <eloado>
-    <nev>
-      <lakcim></lakcim>
-      <adoszam></adomszam>
-    </nev>
+    <nev>Pasztor Gyula</nev>
+    <lakcim>Szegilong</lakcim>
+    <adoszam>7984665</adomszam>
   </eloado>
 </konferencia>
