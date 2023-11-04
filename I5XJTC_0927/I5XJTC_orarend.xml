@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <I5XJTC_orarend>
-  <ora id="h1hf" tipus="kotelezo">
+  <ora id="h1hf" tipus="gyakorlat">
     <targy nev="angol nyelvvizsga elokeszito szint"/>
     <idopont>
       <nap nap="hetfo"/>
@@ -12,7 +12,7 @@
     <oktato nev="Pasztor Krisztina"/>
     <szak nev="GEIK"/>
   </ora>
-  <ora id="k1hf" tipus="kotelezo">
+  <ora id="k1hf" tipus="eloadas">
     <targy nev="adatkezeles xml-ben"/>
     <idopont>
       <nap nap="kedd"/>
@@ -23,7 +23,7 @@
     <oktato nev="Bednarik Laszlo"/>
     <szak nev="GEIK"/>
   </ora>
-  <ora id="k2hf" tipus="kotelezo">
+  <ora id="k2hf" tipus="eloadas">
     <targy nev="algoritmusok es vizsgalatuk"/>
     <idopont>
       <nap nap="kedd"/>
@@ -34,7 +34,7 @@
     <oktato nev="Hazy Attila"/>
     <szak nev="GEIK"/>
   </ora>
-  <ora id="sz1hf" tipus="kotelezo">
+  <ora id="sz1hf" tipus="gyakorlat">
     <targy nev="adatkezeles xml-ben"/>
     <idopont>
       <nap nap="szerda"/>
@@ -45,7 +45,7 @@
     <oktato nev="Bednarik Laszlo"/>
     <szak nev="GEIK"/>
   </ora>
-  <ora id="sz2hf" tipus="kotelezo">
+  <ora id="sz2hf" tipus="eloadas">
     <targy nev="vallalati informacios rendszerek fejlesztese"/>
     <idopont>
       <nap nap="szerda"/>
@@ -56,7 +56,7 @@
     <oktato nev="Sasvari Peter"/>
     <szak nev="GEIK"/>
   </ora>
-  <ora id="sz3hf" tipus="kotelezo">
+  <ora id="sz3hf" tipus="gyakorlat">
     <targy nev="vallalati informacios rendszerek fejlesztese"/>
     <idopont>
       <nap nap="szerda"/>
@@ -67,7 +67,7 @@
     <oktato nev="Sasvari Peter"/>
     <szak nev="GEIK"/>
   </ora>
-  <ora id="cs1hf" tipus="kotelezo">
+  <ora id="cs1hf" tipus="eloadas">
     <targy nev="szoftvertech"/>
     <idopont>
       <nap nap="csutortok"/>
@@ -78,7 +78,7 @@
     <oktato nev="Mileff Peter"/>
     <szak nev="GEIK"/>
   </ora>
-  <ora id="cs2hf" tipus="kotelezo">
+  <ora id="cs2hf" tipus="gyakorlat">
     <targy nev="szoftvertech"/>
     <idopont>
       <nap nap="csutortok"/>
@@ -89,7 +89,7 @@
     <oktato nev="Mileff Peter"/>
     <szak nev="GEIK"/>
   </ora>
-  <ora id="cs3hf" tipus="valaszthato">
+  <ora id="cs3hf" tipus="gyakorlat">
     <targy nev="japan-magyar kapcsolatok tortenete"/>
     <idopont>
       <nap nap="csutortok"/>
@@ -100,7 +100,7 @@
     <oktato nev="Ichihara Shimpei"/>
     <szak nev="GEIK"/>
   </ora>
-  <ora id="cs4hf" tipus="valaszthato">
+  <ora id="cs4hf" tipus="gyakorlat">
     <targy nev="versenyrobotok epitese es programozasa"/>
     <idopont>
       <nap nap="csutortok"/>
