@@ -3,10 +3,12 @@
 [
 	<!ELEMENT mozi (film*)>
 	<!ELEMENT film (rendezo+, szinesz+, iro+)>
+	<!ATTLIST film id ID #REQUIRED>
 	<!ATTLIST film mufaj (horror|akcio|romantika) "horror">
 	<!ELEMENT rendezo (#PCDATA)>
 	<!ELEMENT szinesz (#PCDATA)>
-	<!ELEMENT iro (#PCDATA)>
+	<!ELEMENT iro EMPTY>
+	<!ATTLIST iro id ID #REQUIRED>
 ]
 >
 
