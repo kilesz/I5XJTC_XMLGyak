@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I5XJTC_er [
+	<!ELEMENT I5XJTC_modell (A+,B+,C+,AB)>
+		<!ELEMENT A (a, b, c)>
+			<!ELEMENT a EMPTY>
+			<!ATTLIST a id ID #REQUIRED>
+			<!ELEMENT b (x, y)>
+				<!ELEMENT x (#PCDATA)>
+				<!ELEMENT y (#PCDATA)>
+			<!ELEMENT c (#PCDATA, d, e)>
+				<!ELEMENT d (#PCDATA)>
+				<!ELEMENT e (#PCDATA)>
+		<!ELEMENT B (a, b)>
+			<!ELEMENT a EMPTY>
+			<!ATTLIST a id ID #REQUIRED>
+			<!ELEMENT b (#PCDATA, x, y)>
+				<!ELEMENT x (#PCDATA)>
+				<!ELEMENT y (#PCDATA)>
+		<!ELEMENT C (a, b)>
+			<!ELEMENT a EMPTY>
+			<!ATTLIST a id ID #REQUIRED>
+			<!ELEMENT b (#PCDATA)>
+		<!ELEMENT AB (c)>
+			<!ELEMENT c (#PCDATA)>
+			<!ATTLIST AB Aref IDREF #REQUIRED>
+			<!ATTLIST AB Bref IDREF #REQUIRED>
+]>

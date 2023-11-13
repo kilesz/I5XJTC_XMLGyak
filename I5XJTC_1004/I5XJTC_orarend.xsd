@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="orarend">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ora" type="oraTipus" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="oraTipus">
+        <xs:sequence>
+            <xs:element name="targy" type="xs:string"></xs:element>
+            <xs:element name="idopont" type="xs:dateTime"></xs:element>
+            <xs:element name="helyszin" type="xs:string"></xs:element>
+            <xs:element name="oktato" type="xs:string"></xs:element>
+            <xs:element name="szak" type="xs:string"></xs:element>
+        </xs:sequence>
+		<xs:attribute name="id" type="xs:int" use="required"/>
+		<xs:attribute name="tipus" type="oraTipusTipus" default="gyakorlat"/>
+    </xs:complexType>
+	
+	<xs:simpleType name="oraTipusTipus">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="elmelet"/>
+			<xs:enumeration value="gyakorlat"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+    <xs:complexType name="idopontTipus">
+        <xs:sequence>
+            <xs:element name="nap" type="napTipus"></xs:element>
+            <xs:element name="tol" type="xs:dateTime"></xs:element>
+            <xs:element name="ig" type="xs:dateTime"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:simpleType name="napTipus">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="hetfo"/>
+			<xs:enumeration value="kedd"/>
+			<xs:enumeration value="szerda"/>
+			<xs:enumeration value="csutortok"/>
+			<xs:enumeration value="pentek"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+</xs:schema>

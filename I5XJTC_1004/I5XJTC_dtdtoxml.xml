@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<I5XJTC_modell>
+	<A id="er_32">
+		<b>
+			<x>xelem</x>
+			<y>yelem</y>
+		</b>
+		<c>
+			celem
+			<d>delem</d>
+			<e>eelem</e>
+		</c>
+	</A>
+	<B id="er_23">
+		<b>
+			belem
+			<x>xelem</x>
+			<y>yelem</y>
+		</b>
+	</B>
+	<C id="er_12" Bref="er_23">
+		<b>belem</b>
+	</C>
+	<AB Aref="er_32" Bref="er_23">
+		<c>celem</c>
+	</AB>
+</I5XJTC_modell>

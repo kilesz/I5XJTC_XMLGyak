@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I5XJTC_kurzusfelvetel [
+	<!ELEMENT I5XJTC_kurzusfelvetel (kurzusfelvetel)>
+		<!ELEMENT kurzusfelvetel (kurzus*)>
+			<!ELEMENT kurzus (kurzusnev, kredit, hely, idopont+, oktato?)>
+				<!ATTLIST kurzus id ID #REQUIRED>
+				<!ATTLIST kurzus jovahagyas (igen|nem) #REQUIRED "nem">
+				<!ELEMENT kurzusnev (#PCDATA)>
+				<!ELEMENT kredit (#PCDATA)>
+				<!ELEMENT idopont (#PCDATA)>
+				<!ELEMENT oktato (#PCDATA)>
+]>
