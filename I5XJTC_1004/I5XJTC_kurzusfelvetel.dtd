@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE I5XJTC_kurzusfelvetel [
 	<!ELEMENT I5XJTC_kurzusfelvetel (kurzusfelvetel)>
+		<!ATTLIST I5XJTC_kurzusfelvetel id ID #REQUIRED>
+		<!ATTLIST I5XJTC_kurzusfelvetel nev ID #REQUIRED>
 		<!ELEMENT kurzusfelvetel (kurzus*)>
 			<!ELEMENT kurzus (kurzusnev, kredit, hely, idopont+, oktato?)>
 				<!ATTLIST kurzus id ID #REQUIRED>
