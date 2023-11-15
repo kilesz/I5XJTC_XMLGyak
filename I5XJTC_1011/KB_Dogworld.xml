@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konyvek xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="KB_Dogworld.xsd">
+    <konyv isbn="5642233576">
+        <cim>DogWorld</cim>
+        <szerzo>Charles M. Schulz</szerzo>
+
+        <szereplo>
+            <nev>Snoopy</nev>
+            <baratja>Patty</baratja>
+            <szuletett>2010-10-04</szuletett>
+            <jellemzes>extrovertált beagle</jellemzes>
+        </szereplo>
+
+        <szereplo>
+            <nev>Patty</nev>
+            <szuletett>2011-08-22</szuletett>
+            <jellemzes>vakmerő, leány</jellemzes>
+        </szereplo>
+
+    </konyv>
+</konyvek>
