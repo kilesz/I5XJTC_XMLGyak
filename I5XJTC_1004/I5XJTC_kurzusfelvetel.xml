@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE I5XJTC_kurzusfelvetel SYSTEM "I5XJTC_kurzusfelvetel.dtd">
 
-<I5XJTC_kurzusfelvetel tanev="2023/2024">
+<I5XJTC_kurzusfelvetel tanev="2023/2024" nev="ME">
 	<kurzusfelvetel>
 		<kurzus id="GEIAL332-B" jovahagyas="igen">
 			<kurzusnev>Adatkezelés XML környezetben</kurzusnev>
