@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Fesztivál_I5XJTC>
+	<Fellépő Fel_id="823" Fel_Fesz="4455">
+		<ország>Magyarország</ország>
+		<név>Kkevin</név>
+		<díj>3.000.000ft</díj>
+	</Fellépő>
+	<Fesztivál Fel_id="4455">
+		<év>2023</év>
+		<helyszín>Miskolc</helyszín>
+		<név>NagyMamaKoncert</név>
+	</Fesztivál>
+	<Bár B_id="123" Fesz_B="4455">
+		<név>HorgonyZoo</név>
+		<cég>Mindent a vevőnek kft</cég>
+		<ital>Whisky</ital>
+	</Bár>
+	<Alkalmazott A_id="652" B_A="123">
+		<fizetés>230.000ft</fizetés>
+		<müszak>8 órás</müszak>
+		<név>Benedek ELek</név>
+	</Alkalmazott>
+	<Nyelvtudás Ny_id="223">
+		<szint>Középfokú</szint>
+		<nyelv>Angol</nyelv>
+	</Nyelvtudás>
+	<Közvélemény K_id="981" K_Ny="223" K_R="443">
+		<kérdező>Jugobella János</kérdező>
+	</Közvélemény>
+	<Résztvevő R_id="443" Fesz_R="4455">
+		<név>Kovács Ferenc</név>
+		<diakigazolvány>4352462851</diakigazolvány>
+		<lakcím>
+			<házszám>15</házszám>
+			<utca>Rákóczi</utca>
+			<település>Legyesbénye</település>
+		</lakcím>
+	</Résztvevő>
+	<Tulajdonos T_id="991" Fesz_T="4455">
+		<bevétel>7.000.000ft</bevétel>
+		<alapítás>2013</alapítás>
+		<adószám>3837281732</adószám>
+		<név>Pálinkás Ernő</név>
+	</Tulajdonos>
+	
+	
+	<Fellépő Fel_id="673" Fel_Fesz="3342">
+		<ország>Magyarország</ország>
+		<név>Köntös Józsi</név>
+		<díj>2.300.000ft</díj>
+	</Fellépő>
+	<Fesztivál Fel_id="3342">
+		<év>2022</év>
+		<helyszín>Budapest Sportaréna</helyszín>
+		<név>Hangos legyen az élet</név>
+	</Fesztivál>
+	<Bár B_id="781" Fesz_B="3342">
+		<név>Jólvan bár</név>
+		<cég>Budapesti sörfőzde</cég>
+		<ital>Borsodi megy ale</ital>
+	</Bár>
+	<Alkalmazott A_id="965" B_A="781">
+		<fizetés>210.000ft</fizetés>
+		<müszak>8 órás</müszak>
+		<név>Lakatos Armandó</név>
+	</Alkalmazott>
+	<Nyelvtudás Ny_id="767">
+		<szint>Középfokú</szint>
+		<nyelv>Arab</nyelv>
+	</Nyelvtudás>
+	<Közvélemény K_id="981" K_Ny="767" K_R="112">
+		<kérdező>Hajnal Ferenc</kérdező>
+	</Közvélemény>
+	<Résztvevő R_id="112" Fesz_R="3342">
+		<név></név>
+		<diakigazolvány>5263748134</diakigazolvány>
+		<lakcím>
+			<házszám>32</házszám>
+			<utca>Jókai</utca>
+			<település>Szerencs</település>
+		</lakcím>
+	</Résztvevő>
+	<Tulajdonos T_id="338" Fesz_T="3342">
+		<bevétel>12.000.000ft</bevétel>
+		<alapítás>2009</alapítás>
+		<adószám>7394827384</adószám>
+		<név>Döbrögi János</név>
+	</Tulajdonos>
+</Fesztivál_I5XJTC>
