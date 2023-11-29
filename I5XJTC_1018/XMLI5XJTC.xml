@@ -1,90 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<Fesztivál_I5XJTC>
-	<Fellépő Fel_id="823" Fel_Fesz="4455">
-		<ország>Magyarország</ország>
-		<név>Kkevin</név>
-		<díj>3.000.000ft</díj>
-	</Fellépő>
-	<Fesztivál Fel_id="4455">
-		<év>2023</év>
-		<helyszín>Miskolc</helyszín>
-		<név>NagyMamaKoncert</név>
-	</Fesztivál>
-	<Bár B_id="123" Fesz_B="4455">
-		<név>HorgonyZoo</név>
-		<cég>Mindent a vevőnek kft</cég>
+<Fesztival_I5XJTC>
+	<Fellepo Fel_id="823" Fel_Fesz="4455">
+		<orszag>Magyarország</orszag>
+		<nev>Kkevin</nev>
+		<dij>3.000.000ft</dij>
+	</Fellepo>
+	<Fesztival Fesz_id="4455">
+		<ev>2023</ev>
+		<helyszin>Miskolc</helyszin>
+		<nev>NagyMamaKoncert</nev>
+	</Fesztival>
+	<Bar B_id="123" Fesz_B="4455">
+		<nev>HorgonyZoo</nev>
+		<ceg>Mindent a vevőnek kft</ceg>
 		<ital>Whisky</ital>
-	</Bár>
+		<ital>Rum</ital>
+		<ital>Jager</ital>
+	</Bar>
 	<Alkalmazott A_id="652" B_A="123">
-		<fizetés>230.000ft</fizetés>
-		<müszak>8 órás</müszak>
-		<név>Benedek ELek</név>
+		<fizetes>230000</fizetes>
+		<muszak>8 órás</muszak>
+		<nev>Benedek ELek</nev>
 	</Alkalmazott>
-	<Nyelvtudás Ny_id="223">
+	<Nyelvtudas Ny_id="223">
 		<szint>Középfokú</szint>
 		<nyelv>Angol</nyelv>
-	</Nyelvtudás>
-	<Közvélemény K_id="981" K_Ny="223" K_R="443">
-		<kérdező>Jugobella János</kérdező>
-	</Közvélemény>
-	<Résztvevő R_id="443" Fesz_R="4455">
-		<név>Kovács Ferenc</név>
-		<diakigazolvány>4352462851</diakigazolvány>
-		<lakcím>
-			<házszám>15</házszám>
+	</Nyelvtudas>
+	<Kozvelemeny K_id="981" K_Ny="223" K_R="443">
+		<kerdezo>Jugobella János</kerdezo>
+	</Kozvelemeny>
+	<Resztvevo R_id="443" Fesz_R="4455">
+		<nev>Kovács Ferenc</nev>
+		<diakigazolvany>4352462851</diakigazolvany>
+		<lakcim>
+			<hazszam>15</hazszam>
 			<utca>Rákóczi</utca>
-			<település>Legyesbénye</település>
-		</lakcím>
-	</Résztvevő>
+			<telepules>Legyesbénye</telepules>
+		</lakcim>
+	</Resztvevo>
 	<Tulajdonos T_id="991" Fesz_T="4455">
-		<bevétel>7.000.000ft</bevétel>
-		<alapítás>2013</alapítás>
-		<adószám>3837281732</adószám>
-		<név>Pálinkás Ernő</név>
+		<bevetel>7.000.000ft</bevetel>
+		<alapitas>2013</alapitas>
+		<adoszam>3837281732</adoszam>
+		<nev>Pálinkás Ernő</nev>
 	</Tulajdonos>
 	
 	
-	<Fellépő Fel_id="673" Fel_Fesz="3342">
+	<Fellepo Fel_id="673" Fel_Fesz="3342">
 		<ország>Magyarország</ország>
-		<név>Köntös Józsi</név>
-		<díj>2.300.000ft</díj>
-	</Fellépő>
-	<Fesztivál Fel_id="3342">
-		<év>2022</év>
-		<helyszín>Budapest Sportaréna</helyszín>
-		<név>Hangos legyen az élet</név>
-	</Fesztivál>
-	<Bár B_id="781" Fesz_B="3342">
-		<név>Jólvan bár</név>
-		<cég>Budapesti sörfőzde</cég>
+		<nev>Köntös Józsi</nev>
+		<dij>2.300.000ft</dij>
+	</Fellepo>
+	<Fesztival Fesz_id="3342">
+		<ev>2022</ev>
+		<helyszin>Budapest Sportaréna</helyszin>
+		<nev>Hangos legyen az élet</nev>
+	</Fesztival>
+	<Bar B_id="781" Fesz_B="3342">
+		<nev>Jólvan bár</nev>
+		<ceg>Budapesti sörfőzde</ceg>
 		<ital>Borsodi megy ale</ital>
-	</Bár>
+		<ital>Boros kóla</ital>
+		<ital>Whisky</ital>
+	</Bar>
 	<Alkalmazott A_id="965" B_A="781">
-		<fizetés>210.000ft</fizetés>
-		<müszak>8 órás</müszak>
-		<név>Lakatos Armandó</név>
+		<fizetes>210000</fizetes>
+		<muszak>8 órás</muszak>
+		<nev>Lakatos Armandó</nev>
 	</Alkalmazott>
-	<Nyelvtudás Ny_id="767">
+	<Nyelvtudas Ny_id="767">
 		<szint>Középfokú</szint>
 		<nyelv>Arab</nyelv>
-	</Nyelvtudás>
-	<Közvélemény K_id="981" K_Ny="767" K_R="112">
-		<kérdező>Hajnal Ferenc</kérdező>
-	</Közvélemény>
-	<Résztvevő R_id="112" Fesz_R="3342">
-		<név></név>
-		<diakigazolvány>5263748134</diakigazolvány>
-		<lakcím>
-			<házszám>32</házszám>
+	</Nyelvtudas>
+	<Kozvelemeny K_id="981" K_Ny="767" K_R="112">
+		<kerdezo>Hajnal Ferenc</kerdezo>
+	</Kozvelemeny>
+	<Resztvevo R_id="112" Fesz_R="3342">
+		<nev></nev>
+		<diakigazolvany>5263748134</diakigazolvany>
+		<lakcim>
+			<hazszam>32</hazszam>
 			<utca>Jókai</utca>
-			<település>Szerencs</település>
-		</lakcím>
-	</Résztvevő>
+			<telepules>Szerencs</telepules>
+		</lakcim>
+	</Resztvevo>
 	<Tulajdonos T_id="338" Fesz_T="3342">
-		<bevétel>12.000.000ft</bevétel>
-		<alapítás>2009</alapítás>
-		<adószám>7394827384</adószám>
-		<név>Döbrögi János</név>
+		<bevetel>12.000.000ft</bevetel>
+		<alapitas>2009</alapitas>
+		<adoszam>7394827384</adoszam>
+		<nev>Döbrögi János</nev>
 	</Tulajdonos>
-</Fesztivál_I5XJTC>
+</Fesztival_I5XJTC>
