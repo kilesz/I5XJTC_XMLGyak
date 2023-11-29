@@ -9,16 +9,16 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:complexType name="oraTipus">
-        <xs:sequence>
-            <xs:element name="targy" type="xs:string"></xs:element>
-            <xs:element name="idopont" type="xs:dateTime"></xs:element>
-            <xs:element name="helyszin" type="xs:string"></xs:element>
-            <xs:element name="oktato" type="xs:string"></xs:element>
-            <xs:element name="szak" type="xs:string"></xs:element>
-        </xs:sequence>
+        	<xs:sequence>
+            		<xs:element name="targy" type="xs:string"></xs:element>
+            		<xs:element name="idopont" type="xs:dateTime"></xs:element>
+            		<xs:element name="helyszin" type="xs:string"></xs:element>
+            		<xs:element name="oktato" type="xs:string"></xs:element>
+            		<xs:element name="szak" type="xs:string"></xs:element>
+        	</xs:sequence>
 		<xs:attribute name="id" type="xs:int" use="required"/>
 		<xs:attribute name="tipus" type="oraTipusTipus" default="gyakorlat"/>
-    </xs:complexType>
+    	</xs:complexType>
 	
 	<xs:simpleType name="oraTipusTipus">
 		<xs:restriction base="xs:string">
@@ -27,13 +27,13 @@
 		</xs:restriction>
 	</xs:simpleType>
 
-    <xs:complexType name="idopontTipus">
-        <xs:sequence>
-            <xs:element name="nap" type="napTipus"></xs:element>
-            <xs:element name="tol" type="xs:dateTime"></xs:element>
-            <xs:element name="ig" type="xs:dateTime"></xs:element>
-        </xs:sequence>
-    </xs:complexType>
+    	<xs:complexType name="idopontTipus">
+        	<xs:sequence>
+            		<xs:element name="nap" type="napTipus"></xs:element>
+            		<xs:element name="tol" type="xs:dateTime"></xs:element>
+            		<xs:element name="ig" type="xs:dateTime"></xs:element>
+        	</xs:sequence>
+    	</xs:complexType>
 	
 	<xs:simpleType name="napTipus">
 		<xs:restriction base="xs:string">
