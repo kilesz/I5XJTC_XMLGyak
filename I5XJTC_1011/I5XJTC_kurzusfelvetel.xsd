@@ -3,12 +3,10 @@
 
 	<attribute name="tanev" type="xs:string" />
 	<attribute name="nev" type="xs:string" />
-
 	<element name="hnev" type="xs:string" />
 	<element name="szulev" type="xs:string" />
 	<element name="szak" type="xs:string" />
 	<attribute name="evf" type="xs:string" />
-
 	<element name="kurzusnev" type="xs:string" />
 	<element name="kredit" type="xs:string" />
 	<element name="hely" type="xs:string" />
@@ -55,12 +53,12 @@
 	</complexType>
 	
 	<element name="I5XJTC_kurzusfelvetel">
-    <complexType>
-        <sequence>
-            <element ref="hallgatok" />
-            <element ref="kurzusok" />
-        </sequence>
-        <attribute ref="tanev" use="required" />
-        <attribute ref="nev" use="required" />
-    </complexType>
+    	<complexType>
+        	<sequence>
+            		<element ref="hallgatok" />
+            		<element ref="kurzusok" />
+        	</sequence>
+        	<attribute ref="tanev" use="required" />
+        	<attribute ref="nev" use="required" />
+    	</complexType>
 </xs:schema>
