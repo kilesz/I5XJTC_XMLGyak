@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-	<!-- Egyszerű típusok -->
+	<!-- Egyszerű típusok kigyűjtése, saját típusok meghatározása, megszorítás -->
 	<xs:element name="nev" type="xs:string" />
     <xs:element name="helyszin" type="xs:string" />
     <xs:element name="ev" type="xs:gYear" />
@@ -34,7 +34,7 @@
         </xs:restriction>
     </xs:simpleType>
 	
-	<!-- komplex típusok -->
+	<!-- Komplex típusokhoz saját típus meghatározása, sorrendiség, számosság etc -->
 	
 	<xs:element name="Fellepo" type="FellepoTipus" />
 	<xs:complexType name="FellepoTipus">
@@ -129,7 +129,7 @@
 		<xs:attribute name="Fesz_T" />
 	</xs:complexType>
 	
-	<!-- Gyökérelemben az elemek -->
+	<!-- Gyökérelemtől az elemek felhasználása -->
 	
 	<xs:element name="Fesztival_I5XJTC" type="Fesztival_I5XJTCTipus" />
 	<xs:complexType name="Fesztival_I5XJTCTipus">
@@ -223,6 +223,13 @@
         <xs:selector xpath="Tulajdonos"/>
         <xs:field xpath="@Fesz_id"/>
     </xs:keyref>
+	
+	<!-- Az 1:1 kapcsolat megvalósítás -->
+	
+	<xs:unique name="Tulajdonos_Fesztival_Egy">
+		<xs:selector xpath="Tulajdonos"/>
+		<xs:field xpath="@Fesz_id"/>
+	</xs:unique>
 
 
 </xs:schema>
