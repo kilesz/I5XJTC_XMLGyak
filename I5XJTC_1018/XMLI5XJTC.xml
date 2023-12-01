@@ -46,7 +46,7 @@
 		<nev>Pálinkás Ernő</nev>
 	</Tulajdonos>
 	
-	
+	<!-- peldany2 -->
 	<Fellepo Fel_id="673" Fel_Fesz="3342">
 		<ország>Magyarország</ország>
 		<nev>Köntös Józsi</nev>
@@ -77,7 +77,7 @@
 		<kerdezo>Hajnal Ferenc</kerdezo>
 	</Kozvelemeny>
 	<Resztvevo R_id="112" Fesz_R="3342">
-		<nev></nev>
+		<nev>Mátyási Lajos</nev>
 		<diakigazolvany>5263748134</diakigazolvany>
 		<lakcim>
 			<hazszam>32</hazszam>
