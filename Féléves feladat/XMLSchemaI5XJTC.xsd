@@ -15,7 +15,7 @@
 	<xs:element name="Mettol" type="xs:string"/>
 	<xs:element name="Meddig" type="xs:string"/>
 	<xs:element name="Fizetes" type="xs:string"/>
-	<xs:element name="Dij" type="xs:int"/>
+	<xs:element name="Dij" type="DijTipus"/>
 	<xs:element name="Idopontok" type="xs:date"/>
 	<xs:element name="Email" type="xs:string"/>
 	<xs:element name="Telefonszam" type="xs:int"/>
