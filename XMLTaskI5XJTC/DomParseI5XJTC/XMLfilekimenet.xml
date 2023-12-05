@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<I5XJTC_Beadando><Vendeg Vigazolvany="382945TA">
+  <cim >
+    <Utca >Adler Károly utca 12.</Utca>
+    <Varos >Miskolc</Varos>
+  </cim>
+  <Nev >Király Roland</Nev>
+  <Kor >42</Kor>
+</Vendeg>
+
+<Vendeg Vigazolvany="261552PE">
+  <cim >
+    <Utca >Akác utca 44.</Utca>
+    <Varos >Miskolc</Varos>
+  </cim>
+  <Nev >Nemes Norbert</Nev>
+  <Kor >23</Kor>
+</Vendeg>
+
+<Vendeg Vigazolvany="113324RF">
+  <cim >
+    <Utca >Árpád utca 10.</Utca>
+    <Varos >Hatvan</Varos>
+  </cim>
+  <Nev >Utond Zoli</Nev>
+  <Kor >33</Kor>
+</Vendeg>
+
+
+<Latogatas Lid="1592" Lid_Uid="7389" Vigazolvany_Lid="382945TA">
+  <Erkezes >8:00</Erkezes>
+  <Tavozas >13:10</Tavozas>
+</Latogatas>
+
+<Latogatas Lid="8787" Lid_Uid="6524" Vigazolvany_Lid="261552PE">
+  <Erkezes >10:23</Erkezes>
+  <Tavozas >14:00</Tavozas>
+</Latogatas>
+
+<Latogatas Lid="5366" Lid_Uid="2374" Vigazolvany_Lid="113324RF">
+  <Erkezes >8:10</Erkezes>
+  <Tavozas >18:30</Tavozas>
+</Latogatas>
+
+
+<Ugralovar Uid="7389">
+  <Elokeszitesi_ido >20 perc</Elokeszitesi_ido>
+  <Helyigeny >600x600x500 cm</Helyigeny>
+  <Tipus >U74/small</Tipus>
+</Ugralovar>
+
+<Ugralovar Uid="6524">
+  <Elokeszitesi_ido >15 perc</Elokeszitesi_ido>
+  <Helyigeny >400x450x250 cm</Helyigeny>
+  <Tipus >U44/medium</Tipus>
+</Ugralovar>
+
+<Ugralovar Uid="2374">
+  <Elokeszitesi_ido >35 perc</Elokeszitesi_ido>
+  <Helyigeny >500x400x400 cm</Helyigeny>
+  <Tipus >U66/big</Tipus>
+</Ugralovar>
+
+
+<Beosztas Bid="14" Bid_Aid="643" Uid_Bid="7389">
+  <Mettol >8:00</Mettol>
+  <Meddig >14:00</Meddig>
+</Beosztas>
+
+<Beosztas Bid="30" Bid_Aid="232" Uid_Bid="6524">
+  <Mettol >12:00</Mettol>
+  <Meddig >20:00</Meddig>
+</Beosztas>
+
+<Beosztas Bid="45" Bid_Aid="977" Uid_Bid="2374">
+  <Mettol >8:00</Mettol>
+  <Meddig >14:00</Meddig>
+</Beosztas>
+
+
+<Alkalmazottak Aid="643">
+  <Kor >23</Kor>
+  <Fizetes >2300Ft/óra</Fizetes>
+  <Nev >Aranyos József</Nev>
+</Alkalmazottak>
+
+<Alkalmazottak Aid="232">
+  <Kor >20</Kor>
+  <Fizetes >2250Ft/óra</Fizetes>
+  <Nev >Koldus Mátyás</Nev>
+</Alkalmazottak>
+
+<Alkalmazottak Aid="977">
+  <Kor >21</Kor>
+  <Fizetes >2000Ft/óra</Fizetes>
+  <Nev >Fátyol Enikő</Nev>
+</Alkalmazottak>
+
+
+<Maganvallalkozas Mid="1111" Szolgaltatas="7389">
+  <Dij >40000</Dij>
+  <Nev >Napvirág Ugráló</Nev>
+  <Idopontok >2021.05.01.</Idopontok>
+</Maganvallalkozas>
+
+<Maganvallalkozas Mid="2222" Szolgaltatas="6524">
+  <Dij >30000</Dij>
+  <Nev >Napvirág Ugráló</Nev>
+  <Idopontok >2007.03.22.</Idopontok>
+</Maganvallalkozas>
+
+<Maganvallalkozas Mid="4444" Szolgaltatas="2374">
+  <Dij >35000</Dij>
+  <Nev >UgriBugri</Nev>
+  <Idopontok >2022.07.11.</Idopontok>
+</Maganvallalkozas>
+
+
+<Berlo Berles="1111" Bigazolvany="634544TA">
+  <Email >csakavas@gmail.com</Email>
+  <Email >csakavas@freemail.hu</Email>
+  <Email >csakavas@citromail.hu</Email>
+  <Telefonszam >06207385332</Telefonszam>
+  <Telefonszam >06707352332</Telefonszam>
+  <Telefonszam >06207242322</Telefonszam>
+  <Nev >Lakatos Armando</Nev>
+  <cim >
+    <Varos >Miskolc</Varos>
+    <Utca >Ady Endre utca 23.</Utca>
+  </cim>
+</Berlo>
+
+<Berlo Berles="2222" Bigazolvany="664755PE">
+  <Email >rocklau@gmail.com</Email>
+  <Email >rocklau@freemail.hu</Email>
+  <Email >rocklau@citromail.hu</Email>
+  <Telefonszam >06207482726</Telefonszam>
+  <Telefonszam >06708277382</Telefonszam>
+  <Telefonszam >06401782754</Telefonszam>
+  <Nev >Vidám Laura</Nev>
+  <cim >
+    <Varos >Legyesbénye</Varos>
+    <Utca >Rákóczi utca 21.</Utca>
+  </cim>
+</Berlo>
+
+<Berlo Berles="4444" Bigazolvany="726354TA">
+  <Email >izomero44@gmail.com</Email>
+  <Email >izomero44@freemail.hu</Email>
+  <Email >izomero44@citromail.hu</Email>
+  <Telefonszam >06703728994</Telefonszam>
+  <Telefonszam >06202352723</Telefonszam>
+  <Telefonszam >06701167211</Telefonszam>
+  <Nev >Karos Viktor</Nev>
+  <cim >
+    <Varos >Budapest</Varos>
+    <Utca >Bajza utca 34.</Utca>
+  </cim>
+</Berlo>
+
+</I5XJTC_Beadando>
