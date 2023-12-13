@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<I5XJTC_orarend>
+  <ora id="h1hf" tipus="gyakorlat">
+    <targy>angol nyelvvizsga elokeszito szint</targy>
+    <idopont>
+      <nap>hetfo</nap>
+      <tol>12:00</tol>
+      <ig>13:30</ig>
+    </idopont>
+    <helyszin>A/5 202</helyszin>
+    <oktato>Pasztor Krisztina</oktato>
+    <szak>GEIK</szak>
+  </ora>
+  <ora id="k1hf" tipus="eloadas">
+    <targy>adatkezeles xml-ben</targy>
+    <idopont>
+      <nap>kedd</nap>
+      <tol>12:00</tol>
+      <ig>13:30</ig>
+    </idopont>
+    <helyszin>XXXII.e</helyszin>
+    <oktato>Bednarik Laszlo</oktato>
+    <szak>GEIK</szak>
+  </ora>
+  <ora id="k2hf" tipus="eloadas">
+    <targy>algoritmusok es vizsgalatuk</targy>
+    <idopont>
+      <nap>kedd</nap>
+      <tol>14:00</tol>
+      <ig>15:30</ig>
+    </idopont>
+    <helyszin>A/1 320</helyszin>
+    <oktato>Hazy Attila</oktato>
+    <szak>GEIK</szak>
+  </ora>
+  <ora id="sz1hf" tipus="gyakorlat">
+    <targy>adatkezeles xml-ben</targy>
+    <idopont>
+      <nap>szerda</nap>
+      <tol>12:00</tol>
+      <ig>13:30</ig>
+    </idopont>
+    <helyszin>inf/103</helyszin>
+    <oktato>Bednarik Laszlo</oktato>
+    <szak>GEIK</szak>
+  </ora>
+  <ora id="sz2hf" tipus="eloadas">
+    <targy>vallalati informacios rendszerek fejlesztese</targy>
+    <idopont>
+      <nap>szerda</nap>
+      <tol>14:00</tol>
+      <ig>15:30</ig>
+    </idopont>
+    <helyszin>inf/101</helyszin>
+    <oktato>Sasvari Peter</oktato>
+    <szak>GEIK</szak>
+  </ora>
+  <ora id="sz3hf" tipus="gyakorlat">
+    <targy>vallalati informacios rendszerek fejlesztese</targy>
+    <idopont>
+      <nap>szerda</nap>
+      <tol>18:00</tol>
+      <ig>19:30</ig>
+    </idopont>
+    <helyszin>inf/101</helyszin>
+    <oktato>Sasvari Peter</oktato>
+    <szak>GEIK</szak>
+  </ora>
+  <ora id="cs1hf" tipus="eloadas">
+    <targy>szoftvertech</targy>
+    <idopont>
+      <nap>csutortok</nap>
+      <tol>08:00</tol>
+      <ig>09:30</ig>
+    </idopont>
+    <helyszin>XXXIII.e</helyszin>
+    <oktato>Mileff Peter</oktato>
+    <szak>GEIK</szak>
+  </ora>
+  <ora id="cs2hf" tipus="gyakorlat">
+    <targy>szoftvertech</targy>
+    <idopont>
+      <nap>csutortok</nap>
+      <tol>10:00</tol>
+      <ig>11:30</ig>
+    </idopont>
+    <helyszin>XXXIII.e</helyszin>
+    <oktato>Mileff Peter</oktato>
+    <szak>GEIK</szak>
+  </ora>
+  <ora id="cs3hf" tipus="gyakorlat">
+    <targy>japan-magyar kapcsolatok tortenete</targy>
+    <idopont>
+      <nap>csutortok</nap>
+      <tol>14:00</tol>
+      <ig>15:10</ig>
+    </idopont>
+    <helyszin>C/1 202</helyszin>
+    <oktato>Ichihara Shimpei</oktato>
+    <szak>GEIK</szak>
+  </ora>
+  <ora id="cs4hf" tipus="gyakorlat">
+    <targy>versenyrobotok epitese es programozasa</targy>
+    <idopont>
+      <nap>csutortok</nap>
+      <tol>16:00</tol>
+      <ig>17:30</ig>
+    </idopont>
+    <helyszin>trening studio</helyszin>
+    <oktato>Szilagyi Szilvia</oktato>
+    <szak>GEIK</szak>
+  </ora>
+  <ora id="cs5hf" tipus="gyakorlat">
+    <targy>versenyrobotok epitese es programozasa</targy>
+    <idopont>
+      <nap>csutortok</nap>
+      <tol>16:00</tol>
+      <ig>17:30</ig>
+    </idopont>
+    <helyszin>trening studio</helyszin>
+    <szak>GEIK</szak>
+  </ora>
+</I5XJTC_orarend>

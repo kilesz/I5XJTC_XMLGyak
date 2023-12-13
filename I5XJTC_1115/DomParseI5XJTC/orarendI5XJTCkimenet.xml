@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ora id="h1hf" tipus="gyakorlat">
+   <targy>angol nyelvvizsga elokeszito szint</targy>
+   <idopont>
+      <nap>hetfo</nap>
+      <tol>12:00</tol>
+      <ig>13:30</ig>
+   </idopont>
+   <helyszin>A/5 202</helyszin>
+   <oktato>Pasztor Krisztina</oktato>
+   <szak>GEIK</szak>
+</ora>
