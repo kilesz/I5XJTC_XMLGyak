@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<I5XJTC_kurzusfelvetel nev="ME" tanev="2023/2024 I.">
+    <hallgatok evf="4">
+        <hnev>Katona Bence</hnev>
+        <szulev>2001</szulev>
+        <szak>programtervezo informatikus</szak>
+    </hallgatok>
+    <kurzusok>
+        <kurzus id="MIGEBANNY1" jovahagyas="igen">
+            <kurzusnev>angol nyelvvizsga elokeszito szint 1.</kurzusnev>
+            <kredit>0</kredit>
+            <idopont>hetfo, 12:00-13:30</idopont>
+            <hely>A/5 202</hely>
+            <oktato>Pasztor Krisztina</oktato>
+        </kurzus>
+    </kurzusok>
+</I5XJTC_kurzusfelvetel>

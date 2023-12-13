@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Saxhoz felhasznalt fajl -->
+<I5XJTC_kurzusfelvetel tanev="2023/2024 I." nev="ME">
+	<hallgatok evf="4">
+		<hnev>Katona Bence</hnev>
+		<szulev>2001</szulev>
+		<szak>programtervezo informatikus</szak>
+	</hallgatok>
+	<kurzusok>
+		<kurzus id="MIGEBANNY1" jovahagyas="igen">
+			<kurzusnev>angol nyelvvizsga elokeszito szint 1.</kurzusnev>
+			<kredit>0</kredit>
+			<idopont>hetfo, 12:00-13:30</idopont>
+			<hely>A/5 202</hely>
+			<oktato>Pasztor Krisztina</oktato>
+		</kurzus>
+		<kurzus id="GEIAL332-B" jovahagyas="igen">
+			<kurzusnev>adatkezeles xml-ben</kurzusnev>
+			<kredit>5</kredit>
+			<idopont>kedd, 12:00-13:30</idopont>
+			<hely>XXXII.e</hely>
+			<oktato>Bednarik Laszlo</oktato>
+		</kurzus>
+		<kurzus id="GEMAK234-B" jovahagyas="igen">
+			<kurzusnev>algoritmusok es vizsgalatuk</kurzusnev>
+			<kredit>5</kredit>
+			<idopont>kedd, 14:00-15:30</idopont>
+			<hely>A/1 320</hely>
+			<oktato>Hazy Attila</oktato>
+		</kurzus>
+		<kurzus id="GEIAL332-B" jovahagyas="igen">
+			<kurzusnev>adatkezeles xml-ben</kurzusnev>
+			<kredit>5</kredit>
+			<idopont>szerda, 12:00-13:30</idopont>
+			<hely>inf/103</hely>
+			<oktato>Bednarik Laszlo</oktato>
+		</kurzus>
+		<kurzus id="GEIAL315-B" jovahagyas="igen">
+			<kurzusnev>vallalati informacios rendszerek fejlesztese</kurzusnev>
+			<kredit>5</kredit>
+			<idopont>szerda, 14:00-15:30</idopont>
+			<hely>inf/101</hely>
+			<oktato>Sasvari Peter</oktato>
+		</kurzus>
+		<kurzus id="GEIAL315-B" jovahagyas="igen">
+			<kurzusnev>vallalati informacios rendszerek fejlesztese</kurzusnev>
+			<kredit>5</kredit>
+			<idopont>szerda, 18:00-19:30</idopont>
+			<hely>inf/101</hely>
+			<oktato>Sasvari Peter</oktato>
+		</kurzus>
+		<kurzus id="GEIAL314-B" jovahagyas="igen">
+			<kurzusnev>szoftvertech</kurzusnev>
+			<kredit>5</kredit>
+			<idopont>csutortok, 08:00-09:30</idopont>
+			<hely>XXXIII.e</hely>
+			<oktato>Mileff Peter</oktato>
+		</kurzus>
+		<kurzus id="GEIAL314-B" jovahagyas="igen">
+			<kurzusnev>szoftvertech</kurzusnev>
+			<kredit>5</kredit>
+			<idopont>csutortok, 10:00-11:30</idopont>
+			<hely>XXXIII.e</hely>
+			<oktato>Mileff Peter</oktato>
+		</kurzus>
+		<kurzus id="MEREKSZVJPHU" jovahagyas="igen">
+			<kurzusnev>japan-magyar kapcsolatok tortenete</kurzusnev>
+			<kredit>3</kredit>
+			<idopont>csutortok, 14:00-15:10</idopont>
+			<hely>C/1 202</hely>
+			<oktato>Ichihara Shimpei</oktato>
+		</kurzus>
+		<kurzus id="GEMAKVRP2-B2" jovahagyas="igen">
+			<kurzusnev>versenyrobotok epitese es programozasa II.</kurzusnev>
+			<kredit>3</kredit>
+			<idopont>csutortok, 16:00-17:30</idopont>
+			<hely>trening studio</hely>
+			<oktato>Szilagyi Szilvia</oktato>
+		</kurzus>
+	</kurzusok>
+</I5XJTC_kurzusfelvetel>

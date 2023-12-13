@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<!-- saxhoz felhasznált fajl -->
+	<xs:element name="hnev" type="xs:string"/>
+	<xs:element name="szulev" type="xs:string"/>
+	<xs:element name="szak" type="xs:string"/>
+	<xs:element name="kurzusnev" type="xs:string"/>
+	<xs:element name="kredit" type="xs:int"/>
+	<xs:element name="idopont" type="xs:string"/>
+	<xs:element name="hely" type="xs:string"/>
+	<xs:element name="oktato" type="xs:string"/>
+	<xs:attribute name="nev" type="egyetemTipus"/>
+	<xs:attribute name="tanev" type="xs:string"/>
+	<xs:attribute name="evf" type="xs:int"/>
+	<xs:attribute name="jovahagyas" type="igenNemTipus"/>
+	<xs:attribute name="id" type="xs:string"/>
+	
+	<xs:simpleType name="egyetemTipus">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="ME"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="igenNemTipus">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="igen"/>
+			<xs:enumeration value="nem"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:element name="hallgatok" type="hallgatokTipus" />
+	<xs:complexType name="hallgatokTipus">
+		<xs:sequence>
+			<xs:element ref="hnev" />
+			<xs:element ref="szulev" />
+			<xs:element ref="szak" />
+		</xs:sequence>
+		<xs:attribute ref="evf"/>
+	</xs:complexType>
+	
+	<xs:element name="kurzusok" type="kurzusokTipus" />
+	<xs:complexType name="kurzusokTipus">
+		<xs:sequence>
+			<xs:element name="kurzus">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="kurzusnev" />
+						<xs:element ref="kredit" />
+						<xs:element ref="idopont" />
+						<xs:element ref="hely" />
+						<xs:element ref="oktato" />
+					</xs:sequence>
+					<xs:attribute ref="id"/>
+					<xs:attribute ref="jovahagyas"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:element name="I5XJTC_kurzusfelvetel" type="I5XJTC_kurzusfelvetelTipus" />
+	<xs:complexType name="I5XJTC_kurzusfelvetelTipus">
+		<xs:sequence>
+			<xs:element name="hallgatok" type="hallgatokTipus"/>
+			<xs:element name="kurzusok" type="kurzusokTipus"/>
+		</xs:sequence>
+		<xs:attribute ref="nev"/>
+		<xs:attribute ref="tanev"/>
+	</xs:complexType>
+	
+</xs:schema>
