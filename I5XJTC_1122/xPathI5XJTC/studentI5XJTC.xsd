@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="class">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="student" minOccurs="3" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="keresztnev" type="xs:string" minOccurs="1" maxOccurs="1" />
+                            <xs:element name="vezeteknev" type="xs:string" minOccurs="1" maxOccurs="1" />
+                            <xs:element name="becenev" type="xs:string" />
+                            <xs:element name="kor" type="xs:integer" minOccurs="1" maxOccurs="1" />
+							<xs:element name="osztondij" type="xs:integer" minOccurs="1" maxOccurs="1" />
+                        </xs:sequence>
+                            <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<class xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="studentI5XJTC.xsd">
+        
+    <student id="01">
+                
+        <vezeteknev>Katona</vezeteknev>
+                
+        <keresztnev>Bence</keresztnev>
+         
+        
+        <becenev>Bence</becenev>
+                
+        <kor>22</kor>
+                
+        <osztondij>30000</osztondij>
+          
+    
+    </student>
+      
+    
+    <student id="02">
+          
+        
+        <vezeteknev>Nagy</vezeteknev>
+                
+        <keresztnev>Bence</keresztnev>
+                
+        <becenev>Bence</becenev>
+                
+        <kor>23</kor>
+                
+        <osztondij>25000</osztondij>
+            
+    </student>
+        
+    <student id="03">
+                
+        <vezeteknev>Meszaros</vezeteknev>
+                
+        <keresztnev>Szabolcs</keresztnev>
+                
+        <becenev>Szabi</becenev>
+                
+        <kor>21</kor>
+                
+        <osztondij>35000</osztondij>
+            
+    </student>
+    
+    <szak>GEIK</szak>
+</class>
