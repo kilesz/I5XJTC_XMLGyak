@@ -1,0 +1,83 @@
+{
+    "I5XJTC_kurzusfelvetel": {
+      "hallgato": {
+        "hnev": "Katona Bence",
+        "szulev": "2001-05-01",
+        "szak": "Programtervező Informatikus"
+      },
+      "kurzusok": {
+        "kurzus": [
+          {
+            "kurzusnev": "angol nyelvvizsga elokeszito szint 1.",
+            "kredit": 0,
+            "hely": "A/5 202",
+            "idopont": "Hetfo 12:00-13:30",
+            "oktato": "Pasztor Krisztina"
+          },
+          {
+            "kurzusnev": "adatkezeles xml-ben",
+            "kredit": 5,
+            "hely": "XXXII.ea",
+            "idopont": "Kedd 12:00-13:30",
+            "oktato": "Bednarik Laszlo",
+          },
+          {
+            "kurzusnev": "algoritmusok es vizsgalatuk",
+            "kredit": 5,
+            "hely": "A/1 320",
+            "idopont": "kedd, 14:00-15:30",
+            "oktato": "Hazy Attila"
+          },
+          {
+            "kurzusnev": "adatkezeles xml-ben",
+            "kredit": 5,
+            "hely": "inf/103",
+            "idopont": "szerda, 12:00-13:30",
+            "oktato": "Bednarik Laszlo"
+          },
+          {
+            "kurzusnev": "vallalati informacios rendszerek fejlesztese",
+            "kredit": 5,
+            "hely": "inf/101",
+            "idopont": "szerda, 14:00-15:30",
+            "oktato": "Sasvari Peter"
+          },
+		  {
+            "kurzusnev": "vallalati informacios rendszerek fejlesztese",
+            "kredit": 5,
+            "hely": "inf/101",
+            "idopont": "szerda, 18:00-19:30",
+            "oktato": "Sasvari Peter"
+          },
+		  {
+            "kurzusnev": "szoftvertech",
+            "kredit": 5,
+            "hely": "XXXIII.e",
+            "idopont": "csutortok, 08:00-09:30",
+            "oktato": "Mileff Peter"
+          },
+		  {
+            "kurzusnev": "szoftvertech",
+            "kredit": 5,
+            "hely": "XXXIII.e",
+            "idopont": "csutortok, 10:00-11:30",
+            "oktato": "Mileff Peter"
+          },
+		  		  {
+            "kurzusnev": "japan-magyar kapcsolatok tortenete",
+            "kredit": 3,
+            "hely": "C/1 202",
+            "idopont": "csutortok, 14:00-15:10",
+            "oktato": "Ichihara Shimpei"
+          },
+		  		  {
+            "kurzusnev": "versenyrobotok epitese es programozasa II.",
+            "kredit": 3,
+            "hely": "trening studio",
+            "idopont": "csutortok, 16:00-17:30",
+            "oktato": "Szilagyi Szilvia"
+          },
+        ]
+      }
+    }
+  }
